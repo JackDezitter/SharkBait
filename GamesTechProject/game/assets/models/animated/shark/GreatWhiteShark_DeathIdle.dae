@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.3.1 commit date:2022-10-04, commit time:18:35, hash:b292cfe5a936</authoring_tool>
+    </contributor>
+    <created>2022-11-23T21:43:49</created>
+    <modified>2022-11-23T21:43:49</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_controllers/>
+  <library_animations>
+    <animation id="action_container-Armature" name="Armature">
+      <animation id="Armature_Action_Defeat_Idle_Hip_pose_matrix" name="Armature">
+        <source id="Armature_Action_Defeat_Idle_Hip_pose_matrix-input">
+          <float_array id="Armature_Action_Defeat_Idle_Hip_pose_matrix-input-array" count="30">0.0333333 0.06666666 0.1 0.1333333 0.1666666 0.2 0.2333333 0.2666667 0.3 0.3333333 0.3666667 0.4 0.4333333 0.4666666 0.5 0.5333334 0.5666667 0.6 0.6333333 0.6666667 0.7 0.7333334 0.7666667 0.8 0.8333333 0.8666667 0.9 0.9333333 0.9666666 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-input-array" count="30" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_Action_Defeat_Idle_Hip_pose_matrix-output">
+          <float_array id="Armature_Action_Defeat_Idle_Hip_pose_matrix-output-array" count="480">-0.9899787 0.1375807 0.03184021 3.166738 0.141217 0.964484 0.2232334 -0.3256509 3.22885e-6 0.2254921 -0.9742449 0 0 0 0 1 -0.9899787 0.137584 0.0318258 3.166738 0.141217 0.9645072 0.2231323 -0.3256509 3.22885e-6 0.22539 -0.9742684 0 0 0 0 1 -0.9899787 0.1375934 0.03178525 3.166738 0.141217 0.9645733 0.2228481 -0.3256509 3.22886e-6 0.2251029 -0.9743351 0 0 0 0 1 -0.9899787 0.1376079 0.03172257 3.166738 0.141217 0.9646747 0.2224087 -0.3256509 3.22887e-6 0.224659 -0.9744375 0 0 0 0 1 -0.9899787 0.1376265 0.03164177 3.166738 0.141217 0.9648048 0.2218422 -0.3256509 3.22887e-6 0.2240869 -0.974569 0 0 0 0 1 -0.9899787 0.1376483 0.03154689 3.166738 0.141217 0.9649577 0.2211771 -0.3256509 3.22888e-6 0.223415 -0.9747234 0 0 0 0 1 -0.9899787 0.1376723 0.03144193 3.166738 0.141217 0.9651261 0.2204413 -0.3256509 3.2289e-6 0.2226718 -0.9748935 0 0 0 0 1 -0.9899787 0.1376976 0.03133091 3.166738 0.141217 0.9653037 0.219663 -0.3256509 3.2289e-6 0.2218856 -0.9750729 0 0 0 0 1 -0.9899787 0.1377233 0.03121787 3.166738 0.141217 0.9654838 0.2188706 -0.3256509 3.22891e-6 0.2210851 -0.9752548 0 0 0 0 1 -0.9899787 0.1377484 0.0311068 3.166738 0.141217 0.9656596 0.2180919 -0.3256509 3.22892e-6 0.2202986 -0.9754323 0 0 0 0 1 -0.9899787 0.1377721 0.03100177 3.166738 0.141217 0.9658258 0.2173557 -0.3256509 3.22893e-6 0.2195549 -0.9756003 0 0 0 0 1 -0.9899787 0.1377934 0.03090678 3.166738 0.141217 0.9659753 0.2166898 -0.3256509 3.22893e-6 0.2188822 -0.9757513 0 0 0 0 1 -0.9899787 0.1378115 0.03082588 3.166738 0.141217 0.9661024 0.2161226 -0.3256509 3.22893e-6 0.2183094 -0.9758797 0 0 0 0 1 -0.9899787 0.1378255 0.0307631 3.166738 0.141217 0.9662007 0.2156825 -0.3256509 3.22894e-6 0.2178648 -0.975979 0 0 0 0 1 -0.9899787 0.1378346 0.03072248 3.166738 0.141217 0.9662641 0.2153977 -0.3256509 3.22894e-6 0.2175771 -0.976043 0 0 0 0 1 -0.9899787 0.1378379 0.03070804 3.166738 0.141217 0.9662871 0.2152965 -0.3256509 3.23032e-6 0.2174749 -0.9760662 0 0 0 0 1 -0.9899787 0.1378346 0.03072247 3.166738 0.141217 0.9662641 0.2153977 -0.3256509 3.23031e-6 0.2175771 -0.976043 0 0 0 0 1 -0.9899787 0.1378255 0.0307631 3.166738 0.141217 0.9662007 0.2156825 -0.3256509 3.23031e-6 0.2178648 -0.975979 0 0 0 0 1 -0.9899787 0.1378115 0.03082588 3.166738 0.141217 0.9661026 0.2161226 -0.3256509 3.2303e-6 0.2183094 -0.9758799 0 0 0 0 1 -0.9899787 0.1377934 0.03090678 3.166738 0.141217 0.9659755 0.2166898 -0.3256509 3.2303e-6 0.2188823 -0.9757515 0 0 0 0 1 -0.9899787 0.1377721 0.03100177 3.166738 0.141217 0.9658258 0.2173557 -0.3256509 3.23029e-6 0.2195549 -0.9756003 0 0 0 0 1 -0.9899787 0.1377484 0.0311068 3.166738 0.141217 0.9656597 0.218092 -0.3256509 3.23027e-6 0.2202986 -0.9754326 0 0 0 0 1 -0.9899787 0.1377233 0.03121786 3.166738 0.141217 0.9654838 0.2188706 -0.3256509 3.23026e-6 0.2210851 -0.9752548 0 0 0 0 1 -0.9899787 0.1376976 0.03133091 3.166738 0.141217 0.9653037 0.219663 -0.3256509 3.23024e-6 0.2218856 -0.9750729 0 0 0 0 1 -0.9899787 0.1376722 0.03144192 3.166738 0.141217 0.9651259 0.2204413 -0.3256509 3.23023e-6 0.2226717 -0.9748933 0 0 0 0 1 -0.9899787 0.1376482 0.03154688 3.166738 0.141217 0.9649577 0.2211771 -0.3256509 3.23021e-6 0.223415 -0.9747234 0 0 0 0 1 -0.9899787 0.1376265 0.03164177 3.166738 0.141217 0.9648051 0.2218423 -0.3256509 3.2302e-6 0.2240869 -0.9745692 0 0 0 0 1 -0.9899787 0.1376078 0.03172256 3.166738 0.141217 0.9646744 0.2224086 -0.3256509 3.23018e-6 0.224659 -0.9744372 0 0 0 0 1 -0.9899787 0.1375934 0.03178524 3.166738 0.141217 0.9645733 0.2228481 -0.3256509 3.23017e-6 0.2251029 -0.9743351 0 0 0 0 1 -0.9899787 0.137584 0.03182579 3.166738 0.141217 0.9645072 0.2231323 -0.3256509 3.23016e-6 0.22539 -0.9742684 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-output-array" count="30" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_Action_Defeat_Idle_Hip_pose_matrix-interpolation">
+          <Name_array id="Armature_Action_Defeat_Idle_Hip_pose_matrix-interpolation-array" count="30">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-interpolation-array" count="30" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature_Action_Defeat_Idle_Hip_pose_matrix-sampler">
+          <input semantic="INPUT" source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#Armature_Action_Defeat_Idle_Hip_pose_matrix-sampler" target="Armature_Hip/transform"/>
+      </animation>
+      <animation id="Armature_Action_Defeat_Idle_Tail1_pose_matrix" name="Armature">
+        <source id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-input">
+          <float_array id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-input-array" count="30">0.0333333 0.06666666 0.1 0.1333333 0.1666666 0.2 0.2333333 0.2666667 0.3 0.3333333 0.3666667 0.4 0.4333333 0.4666666 0.5 0.5333334 0.5666667 0.6 0.6333333 0.6666667 0.7 0.7333334 0.7666667 0.8 0.8333333 0.8666667 0.9 0.9333333 0.9666666 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-input-array" count="30" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-output">
+          <float_array id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-output-array" count="480">-0.9638968 -0.2586891 0.06309801 4.76837e-7 -0.2483533 0.9583094 0.1343022 5.96046e-8 -0.09530186 0.1138927 -0.9889115 0 0 0 0 1 -0.9638969 -0.2587103 0.0630116 4.76837e-7 -0.2483533 0.9582644 0.1346227 5.96046e-8 -0.09530196 0.1142234 -0.9888735 0 0 0 0 1 -0.9638968 -0.2587684 0.06277262 2.38419e-7 -0.2483533 0.9581395 0.1355086 5.96046e-8 -0.09530217 0.1151376 -0.9887674 -7.45058e-9 0 0 0 1 -0.9638968 -0.258856 0.06241149 0 -0.2483534 0.9579493 0.1368467 5.96046e-8 -0.09530255 0.1165184 -0.9886057 0 0 0 0 1 -0.9638968 -0.2589649 0.06195863 2.38419e-7 -0.2483534 0.9577084 0.1385237 5.96046e-8 -0.09530299 0.118249 -0.9884001 -7.45058e-9 0 0 0 1 -0.9638967 -0.2590876 0.06144449 0 -0.2483534 0.9574311 0.1404262 8.9407e-8 -0.09530348 0.1202124 -0.9881631 7.45058e-9 0 0 0 1 -0.9638966 -0.2592163 0.06089953 4.76837e-7 -0.2483533 0.9571334 0.1424412 5.96046e-8 -0.09530398 0.1222919 -0.9879078 -7.45058e-9 0 0 0 1 -0.9638967 -0.259344 0.06035431 -2.38419e-7 -0.2483533 0.9568315 0.1444556 5.96046e-8 -0.09530453 0.124371 -0.9876482 -1.49012e-8 0 0 0 1 -0.9638967 -0.2594635 0.05983942 0 -0.2483535 0.9565427 0.1463564 5.96046e-8 -0.09530503 0.126333 -0.9873992 -7.45058e-9 0 0 0 1 -0.9638965 -0.2595679 0.05938548 2.38419e-7 -0.2483533 0.9562849 0.1480309 2.98023e-8 -0.09530542 0.1280613 -0.9871764 -1.49012e-8 0 0 0 1 -0.9638965 -0.2596506 0.05902326 -2.38419e-7 -0.2483533 0.9560773 0.1493663 8.9407e-8 -0.09530578 0.1294399 -0.9869966 -7.45058e-9 0 0 0 1 -0.9638963 -0.2597052 0.05878341 2.38419e-7 -0.2483533 0.9559386 0.1502502 5.96046e-8 -0.09530602 0.1303523 -0.9868764 0 0 0 0 1 -0.9638965 -0.2597248 0.05869662 0 -0.2483533 0.9558884 0.1505699 8.9407e-8 -0.09530609 0.1306823 -0.9868329 0 0 0 0 1 -0.9638964 -0.2597159 0.05873595 2.38419e-7 -0.2483533 0.9559112 0.150425 5.96046e-8 -0.09530606 0.1305328 -0.9868525 -1.49012e-8 0 0 0 1 -0.9638965 -0.2596905 0.05884787 -2.38419e-7 -0.2483533 0.955976 0.1500127 8.9407e-8 -0.09530597 0.1301072 -0.9869089 1.49012e-8 0 0 0 1 -0.9638966 -0.2596506 0.05902325 2.38419e-7 -0.2483533 0.9560772 0.1493663 2.98023e-8 -0.09530577 0.1294399 -0.9869964 -1.49012e-8 0 0 0 1 -0.9638965 -0.2595983 0.05925305 -2.38419e-7 -0.2483533 0.9562091 0.1485192 5.96046e-8 -0.09530556 0.1285655 -0.987111 0 0 0 0 1 -0.9638965 -0.2595351 0.05952814 2.38419e-7 -0.2483533 0.9563662 0.1475048 5.96046e-8 -0.0953053 0.1275184 -0.9872468 -7.45058e-9 0 0 0 1 -0.9638966 -0.2594635 0.05983943 -2.38419e-7 -0.2483533 0.9565427 0.1463563 0 -0.095305 0.1263329 -0.9873992 0 0 0 0 1 -0.9638966 -0.2593851 0.0601778 -2.38419e-7 -0.2483534 0.9567329 0.1451074 0 -0.09530469 0.1250437 -0.9875633 7.45058e-9 0 0 0 1 -0.9638966 -0.2593021 0.06053418 -2.38419e-7 -0.2483534 0.9569315 0.1437911 5.96046e-8 -0.09530433 0.1236852 -0.9877343 0 0 0 0 1 -0.9638966 -0.2592163 0.06089953 2.38419e-7 -0.2483533 0.9571335 0.1424412 5.96046e-8 -0.09530399 0.122292 -0.9879078 -7.45058e-9 0 0 0 1 -0.9638968 -0.2591302 0.06126476 0 -0.2483534 0.9573336 0.141091 2.98023e-8 -0.09530365 0.1208985 -0.9880795 -7.45058e-9 0 0 0 1 -0.9638968 -0.2590455 0.06162079 -2.38419e-7 -0.2483533 0.9575266 0.139774 2.98023e-8 -0.0953033 0.1195392 -0.9882447 -7.45058e-9 0 0 0 1 -0.9638967 -0.2589648 0.06195863 2.38419e-7 -0.2483533 0.9577082 0.1385236 2.98023e-8 -0.09530297 0.1182489 -0.9883999 7.45058e-9 0 0 0 1 -0.9638968 -0.2588902 0.06226922 0 -0.2483533 0.9578739 0.1373737 5.96046e-8 -0.09530268 0.1170622 -0.9885414 -7.45058e-9 0 0 0 1 -0.9638967 -0.2588239 0.06254352 2.38419e-7 -0.2483533 0.9580191 0.1363574 5.96046e-8 -0.0953024 0.1160134 -0.9886649 0 0 0 0 1 -0.9638968 -0.2587684 0.06277259 0 -0.2483532 0.9581394 0.1355086 5.96046e-8 -0.09530216 0.1151375 -0.9887672 0 0 0 0 1 -0.9638969 -0.2587259 0.06294739 2.38419e-7 -0.2483534 0.9582309 0.1348608 5.96046e-8 -0.09530203 0.1144691 -0.9888449 0 0 0 0 1 -0.9638969 -0.2586988 0.06305886 4.76837e-7 -0.2483533 0.9582891 0.1344474 8.9407e-8 -0.09530192 0.1140426 -0.9888943 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-output-array" count="30" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-interpolation">
+          <Name_array id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-interpolation-array" count="30">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-interpolation-array" count="30" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature_Action_Defeat_Idle_Tail1_pose_matrix-sampler">
+          <input semantic="INPUT" source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-input"/>
+          <input semantic="OUTPUT" source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-output"/>
+          <input semantic="INTERPOLATION" source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-interpolation"/>
+        </sampler>
+        <channel source="#Armature_Action_Defeat_Idle_Tail1_pose_matrix-sampler" target="Armature_Tail1/transform"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Hip" name="Hip" sid="Hip" type="JOINT">
+          <matrix sid="transform">-0.9899787 -0.1412171 3.3669e-8 3.166738 0.1412171 -0.9899812 2.36031e-7 -0.3256509 0 2.38421e-7 1 0 0 0 0 1</matrix>
+          <node id="Armature_Spine" name="Spine" sid="Spine" type="JOINT">
+            <matrix sid="transform">0.9999558 -0.009388044 2.23831e-9 6.451004 0.009388044 0.9999558 1.10134e-11 0 -2.23831e-9 1.00044e-11 1 -7.10543e-15 0 0 0 1</matrix>
+            <node id="Armature_Head" name="Head" sid="Head" type="JOINT">
+              <matrix sid="transform">0.991702 -0.1285575 3.06507e-8 4.67662 0.1285575 0.991702 1.97842e-9 0 -3.06507e-8 1.97839e-9 1 0 0 0 0 1</matrix>
+              <node id="Armature_JawUpper" name="JawUpper" sid="JawUpper" type="JOINT">
+                <matrix sid="transform">0.9779725 -0.2087336 4.97663e-8 2.615242 0.2087335 0.9779726 5.25183e-9 0.3432713 -4.97663e-8 5.25175e-9 1 -8.18429e-8 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">2.3842e-7</roll>
+                    <tip_x sid="tip_x" type="float">-1.114552</tip_x>
+                    <tip_y sid="tip_y" type="float">-0.2339399</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Cheekbone_l" name="Cheekbone.l" sid="Cheekbone_l" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.003387995 2.9619e-10 2.396599 0.003387995 0.9999943 -8.74231e-8 0.04939476 0 8.74236e-8 1 1.766351 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141593</roll>
+                    <tip_x sid="tip_x" type="float">-0.9999991</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.19209e-7</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Brow2_l" name="Brow2.l" sid="Brow2_l" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.003387994 2.9619e-10 2.398834 0.003387994 0.9999943 -8.74231e-8 -0.6102084 0 8.74236e-8 1 1.621314 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141593</roll>
+                    <tip_x sid="tip_x" type="float">-0.9999981</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.19209e-7</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Nose2_l" name="Nose2.l" sid="Nose2_l" type="JOINT">
+                <matrix sid="transform">0.9999941 0.003387792 -5.11542e-10 4.23192 0.003387791 -0.9999943 1.50995e-7 0.3346986 0 -1.50996e-7 -1 0.98785 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.89414e-7</roll>
+                    <tip_x sid="tip_x" type="float">-0.705843</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Nose1_l" name="Nose1.l" sid="Nose1_l" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.00338809 2.96199e-10 4.585136 0.00338809 0.9999943 -8.74231e-8 -0.1341447 0 8.74236e-8 1 0.9878501 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141593</roll>
+                    <tip_x sid="tip_x" type="float">-0.5607624</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.19209e-7</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Brow1_l" name="Brow1.l" sid="Brow1_l" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.003387809 2.96174e-10 3.258287 0.003387809 0.9999943 -8.74231e-8 -0.5052916 0 8.74236e-8 1 1.264298 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141593</roll>
+                    <tip_x sid="tip_x" type="float">-0.7288609</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Brow2_r" name="Brow2.r" sid="Brow2_r" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.003387994 -1.31933e-9 2.398834 0.003387994 0.9999943 3.89411e-7 -0.6102093 0 -3.89414e-7 1 -1.621314 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141592</roll>
+                    <tip_x sid="tip_x" type="float">-0.9999981</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.19209e-7</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Nose2_r" name="Nose2.r" sid="Nose2_r" type="JOINT">
+                <matrix sid="transform">0.9999941 0.003387792 1.31925e-9 4.23192 0.003387791 -0.9999943 -3.89412e-7 0.3346981 0 3.89414e-7 -1 -0.9878501 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">-1.50996e-7</roll>
+                    <tip_x sid="tip_x" type="float">-0.705843</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Nose1_r" name="Nose1.r" sid="Nose1_r" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.00338809 -1.31937e-9 4.585136 0.00338809 0.9999943 3.89411e-7 -0.1341451 0 -3.89414e-7 1 -0.98785 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141592</roll>
+                    <tip_x sid="tip_x" type="float">-0.5607624</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.19209e-7</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Brow1_r" name="Brow1.r" sid="Brow1_r" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.003387891 -1.31929e-9 3.258287 0.003387891 0.9999943 3.89411e-7 -0.5052922 0 -3.89414e-7 1 -1.264297 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141592</roll>
+                    <tip_x sid="tip_x" type="float">-0.7288609</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_JawLower" name="JawLower" sid="JawLower" type="JOINT">
+                <matrix sid="transform">0.4284181 -0.9035806 1.93887e-6 1.584837 0.9035806 0.4284181 -6.80864e-7 0.895406 -2.15432e-7 2.04362e-6 1 -2.13483e-7 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">2.14576e-6</roll>
+                    <tip_x sid="tip_x" type="float">-0.5943995</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.242762</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Mouth_l" name="Mouth.l" sid="Mouth_l" type="JOINT">
+                <matrix sid="transform">0.9952496 -0.09735619 2.7269e-7 2.75793 0.09735619 0.9952497 -1.71246e-6 0.6553091 -1.04676e-7 1.73087e-6 1 1.50213 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.6979e-6</roll>
+                    <tip_x sid="tip_x" type="float">-1.1338</tip_x>
+                    <tip_y sid="tip_y" type="float">-0.1070328</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Cheekbone_r" name="Cheekbone.r" sid="Cheekbone_r" type="JOINT">
+                <matrix sid="transform">0.9999943 -0.003387995 -1.31933e-9 2.396599 0.003387995 0.9999943 3.89411e-7 0.0493938 0 -3.89414e-7 1 -1.766351 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141592</roll>
+                    <tip_x sid="tip_x" type="float">-0.9999991</tip_x>
+                    <tip_y sid="tip_y" type="float">-1.19209e-7</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_Mouth_r" name="Mouth.r" sid="Mouth_r" type="JOINT">
+                <matrix sid="transform">0.9952496 -0.09735619 2.26267e-7 2.75793 0.09735619 0.9952497 -1.23789e-6 0.6553084 -1.04676e-7 1.25404e-6 1 -1.50213 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.22106e-6</roll>
+                    <tip_x sid="tip_x" type="float">-1.1338</tip_x>
+                    <tip_y sid="tip_y" type="float">-0.1070328</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_MouthFrontSide" name="MouthFrontSide" sid="MouthFrontSide" type="JOINT">
+                <matrix sid="transform">0.9779725 -0.2087337 4.97664e-8 3.75786 0.2087337 0.9779725 5.25175e-9 0.8781779 -4.97664e-8 5.25185e-9 1 -2.09376e-7 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">2.3842e-7</roll>
+                    <tip_x sid="tip_x" type="float">-0.6751719</tip_x>
+                    <tip_y sid="tip_y" type="float">-0.1417158</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">2.38422e-7</roll>
+                  <tip_x sid="tip_x" type="float">-3.613098</tip_x>
+                  <tip_y sid="tip_y" type="float">0.01224076</tip_y>
+                  <tip_z sid="tip_z" type="float">0</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <connect sid="connect" type="bool">1</connect>
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">2.3842e-7</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_Tail1" name="Tail1" sid="Tail1" type="JOINT">
+            <matrix sid="transform">-0.9998885 0.0148818 5.8132e-9 0 0.01491058 0.9989249 1.51178e-7 2.98023e-8 -3.55499e-9 1.50642e-7 -1 1.42109e-14 0 0 0 1</matrix>
+            <node id="Armature_Tail2" name="Tail2" sid="Tail2" type="JOINT">
+              <matrix sid="transform">0.9999143 0.01309893 5.09599e-9 3.729563 -0.01309893 0.9999143 2.00146e-10 0 -5.09294e-9 -2.6688e-10 1 0 0 0 0 1</matrix>
+              <node id="Armature_Tail3" name="Tail3" sid="Tail3" type="JOINT">
+                <matrix sid="transform">0.9998273 0.01858244 7.22933e-9 3.08105 -0.01858246 0.9998274 -6.69331e-11 -1.19209e-7 -7.22933e-9 -6.74447e-11 1 0 0 0 0 1</matrix>
+                <node id="Armature_TailFinUpper_1" name="TailFinUpper_1" sid="TailFinUpper_1" type="JOINT">
+                  <matrix sid="transform">0.650649 0.7593786 2.95603e-7 3.677348 -0.7593785 0.6506491 -1.35762e-7 0 -2.95429e-7 -1.36141e-7 0.9999999 0 0 0 0 0.9999999</matrix>
+                  <node id="Armature_TailFinUpper_2" name="TailFinUpper_2" sid="TailFinUpper_2" type="JOINT">
+                    <matrix sid="transform">0.9942068 -0.1074846 -4.18362e-8 2.834273 0.1074846 0.9942068 -2.29498e-9 0 4.18406e-8 -2.21505e-9 1 4.54747e-13 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <roll sid="roll" type="float">3.141592</roll>
+                        <tip_x sid="tip_x" type="float">2.203301</tip_x>
+                        <tip_y sid="tip_y" type="float">1.604005</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                      <roll sid="roll" type="float">3.141592</roll>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_TailFinLower_1" name="TailFinLower_1" sid="TailFinLower_1" type="JOINT">
+                  <matrix sid="transform">0.7420644 -0.6703287 -2.60888e-7 3.677348 0.6703287 0.7420642 -1.00234e-7 0 2.60785e-7 -1.005e-7 0.9999999 0 0 0 0 0.9999999</matrix>
+                  <node id="Armature_TailFinLower_2" name="TailFinLower_2" sid="TailFinLower_2" type="JOINT">
+                    <matrix sid="transform">0.9980999 0.06161964 2.39806e-8 1.86289 -0.06161967 0.9980997 -7.62057e-10 0 -2.39819e-8 -7.1708e-10 1 -4.54747e-13 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <roll sid="roll" type="float">3.141592</roll>
+                        <tip_x sid="tip_x" type="float">1.445368</tip_x>
+                        <tip_y sid="tip_y" type="float">-1.48062</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                      <roll sid="roll" type="float">3.141592</roll>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141592</roll>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">3.141592</roll>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">3.141592</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_SideFin1_l" name="SideFin1.l" sid="SideFin1_l" type="JOINT">
+            <matrix sid="transform">-0.6897904 0.7107521 -0.1379154 5.238947 0.3421627 0.4878958 0.8030457 2.399209 0.6380547 0.5067437 -0.5797389 2.825539 0 0 0 1</matrix>
+            <node id="Armature_SideFin2_l" name="SideFin2.l" sid="SideFin2_l" type="JOINT">
+              <matrix sid="transform">0.9916202 0.1042001 0.07636693 2.374779 -0.1080201 0.9930029 0.04771662 2.38419e-7 -0.07086048 -0.05556586 0.9959373 0 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">2.114147</roll>
+                  <tip_x sid="tip_x" type="float">1.440852</tip_x>
+                  <tip_y sid="tip_y" type="float">-0.6756795</tip_y>
+                  <tip_z sid="tip_z" type="float">1.254425</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">2.20033</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_SideFin1_r" name="SideFin1.r" sid="SideFin1_r" type="JOINT">
+            <matrix sid="transform">-0.6897904 0.710752 0.1379155 5.238946 0.3421625 0.4878955 -0.8030458 2.399208 -0.6380548 -0.5067438 -0.5797382 -2.82554 0 0 0 1</matrix>
+            <node id="Armature_SideFin2_r" name="SideFin2.r" sid="SideFin2_r" type="JOINT">
+              <matrix sid="transform">0.9916202 0.1042001 -0.07636702 2.374779 -0.1080201 0.9930029 -0.04771674 0 0.07086056 0.05556598 0.9959374 -2.38419e-7 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">-2.114147</roll>
+                  <tip_x sid="tip_x" type="float">1.440852</tip_x>
+                  <tip_y sid="tip_y" type="float">-0.6756795</tip_y>
+                  <tip_z sid="tip_z" type="float">-1.254425</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-2.20033</roll>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <roll sid="roll" type="float">2.3842e-7</roll>
+            </technique>
+          </extra>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

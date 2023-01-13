@@ -1,0 +1,12 @@
+# Blender 3.3.1 MTL File: 'None'
+# www.blender.org
+
+newmtl Coral_13_15_16.002
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/spide/Downloads/uploads_files_2083993_Corals_FBX/Corals_FBX/Textures/Corals_13_14_15_16_diff.png
+map_d C:/Users/spide/Downloads/uploads_files_2083993_Corals_FBX/Corals_FBX/Textures/Corals_13_14_15_16_diff.png

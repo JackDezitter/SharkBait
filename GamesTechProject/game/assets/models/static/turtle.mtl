@@ -1,0 +1,12 @@
+# Blender 3.3.1 MTL File: 'None'
+# www.blender.org
+
+newmtl _10042_Sea_Turtle_V2_iterations_0_10042_Sea_Turtle_V2_iteration
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/spide/Downloads/10042_Sea_Turtle_V1_L3.123c708c1821-ff1e-470c-a557-b57441fbf771/10042_Sea_Turtle_V1_Diffuse.jpg

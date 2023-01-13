@@ -1,0 +1,13 @@
+# Blender 3.3.1 MTL File: 'None'
+# www.blender.org
+
+newmtl boat
+Ns 100.000015
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/spide/Downloads/Fishing_Boat_obj/Fishing Boat/C:/Users/user/Desktop/Fishing Boat/textures/Boat_diffuse.bmp
+map_Ks C:/Users/spide/Downloads/Fishing_Boat_obj/Fishing Boat/C:/Users/user/Desktop/Fishing Boat/textures/Boat_specular.bmp
+map_Bump C:/Users/spide/Downloads/Fishing_Boat_obj/Fishing Boat/C:/Users/user/Desktop/Fishing Boat/textures/Boat_normal.bmp
