@@ -2,6 +2,8 @@
 First person, underwater survival game.
 The player must survive increasingly difficult waves of enemies in the forms of sharks, whilst managing their health, ammo and oxygen levels.
 Health and Ammo can be collected through pick-ups scattered across the game environment and oxygen can be collected from bubbles emitted by coral or breaching the water's surface.
+
+This game was created entirely individually as part of my university coursework, scoring 84%.
 ### NPCs
 #### Hostile
 - Sharks
@@ -33,7 +35,7 @@ Health and Ammo can be collected through pick-ups scattered across the game envi
 | Jellyfish model | https://creazilla.com/nodes/3281-set-of-jellyfish-3d-model | Creazilla Open-Source License |
 | Turtle model and texture | https://free3d.com/3d-model/-sea-turtle-v1--427786.html | Personal Use License |
 | Menu Background	| https://unsplash.com/photos/XexawgzYOBc	| Free to use |
-| Boat model and Textures |	https://www.turbosquid.com/3d-models/boat-pbr-model-1522670	| https://blog.turbosquid.com/turbosquid-3d-model-license/ |
+| Boat model and Textures |	https://www.turbosquid.com/3d-models/boat-pbr-model-1522670	| Turbosquid 3d model License |
 | Dolphin model/Texture/Anims |	https://www.cgtrader.com/free-3d-models/animals/mammal/realistic-animated-dolphin |	Royalty Free License |
 | Rock Texture | https://www.freepik.com/free-photo/cut-tile-shade-durable-wallpaper_1066914.htm#query=rock%20texture&position=4&from_view=keyword | Free license |
 | Game background audio |	https://pixabay.com/music/build-up-scenes-talaso-extasis-119659/ | Simplified Pixabay License |
