@@ -3,7 +3,7 @@ First person, underwater survival game.
 The player must survive increasingly difficult waves of enemies in the forms of sharks, whilst managing their health, ammo and oxygen levels.
 Health and Ammo can be collected through pick-ups scattered across the game environment and oxygen can be collected from bubbles emitted by coral or breaching the water's surface.
 
-This game was created entirely individually as part of my university coursework, scoring 84%.
+This game was created using a given OpenGL based game engine by my university, which I then modified and created all the game elements. This project was created as a final year module project scoring 84%.
 ### NPCs
 #### Hostile
 - Sharks
